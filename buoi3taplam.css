@@ -1,0 +1,42 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    /*  căn chỉnh, chỉ áp dụng khối */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.items {
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.items div {
+    border: 5px solid rgb(197, 194, 194);
+    /* transition: 2s; */
+    
+    /* background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position:  relative top center; */
+    
+}
+img {
+    
+    max-width: 100%;
+    
+    
+    /* sao không dùng được vertical align */
+}
+p {
+    padding: 10px;
+    font-weight: 10px;
+    line-height: 2;
+    text-align: center;
+}
+/* dung order de day cai class xuong cuoi cung */

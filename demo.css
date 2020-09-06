@@ -1,0 +1,36 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 20px solid rgb(197, 194, 194);
+    width: 300px;
+    transition: 2s;
+    
+    border-radius: 9px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position:  relative top center;
+    
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    
+    /* sao không dùng được vertical align */
+}
+p {
+    padding: 10px;
+    font-weight: 10px;
+    line-height: 2;
+}
+#xinchao {
+    color: grey;
+}
+div:hover {
+    box-shadow: 0 0 100px blueviolet;
+}
+
+#anh {
+    text-align: center;
+}

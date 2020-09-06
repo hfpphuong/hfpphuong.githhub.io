@@ -1,0 +1,19 @@
+.container {
+    height: 400px;
+    display: flex; 
+    /* tao bố cục flexbox */
+    flex-direction: row;
+    /* sắp xếp theo chiều dọc/ngang */
+    justify-content: space-around;
+    /* căn chỉnh theo trục chính */
+    align-items: center;
+    /* vị trí các item trong con tain */
+    flex-wrap: wrap;
+
+}
+.item {
+    
+    background-color: royalblue;
+    justify-items: center;
+    height: 200px;
+}

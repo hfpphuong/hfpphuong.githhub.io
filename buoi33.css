@@ -1,0 +1,30 @@
+.container {
+
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: baseline;
+    /*  cứ trục chính thì dùng justify content */
+    align-items: baseline;
+    flex-wrap: wrap;
+    
+
+}
+.items {
+    background-color: red;
+    
+    width: 25%;
+    /* width bằng flex-basic */
+    box-sizing: border-box;
+    /* cais nay lam cho bo cuc ko bi day khi them padding */
+
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.self {
+    align-self: flex-end;
+}

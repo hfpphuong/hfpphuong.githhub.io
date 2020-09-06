@@ -1,0 +1,40 @@
+body {
+    color: lightcoral;
+}
+em {
+    color: inherit;
+}
+p {
+    font-size: 10px;
+}
+p {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 3;
+    border-radius: 9px;
+    overflow: hidden;
+    transition: box-shadow 1s;
+    }
+    p:hover {
+        box-shadow: 0 0 100px rgb(214, 147, 211);
+    }
+div {
+    border: 1px solid black;
+    width: 200px;
+    vertical-align: middle;
+    border-radius: 5px;
+    transition: 5s;
+}
+img {
+    max-width: 100%;
+}
+div:hover {
+    box-shadow: 0 0 100px rgb(70, 56, 194)
+}
